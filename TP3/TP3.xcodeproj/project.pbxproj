@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		60951D41170C941800CC20E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60951D40170C941800CC20E8 /* main.cpp */; };
 		60951D43170C941800CC20E8 /* TP3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60951D42170C941800CC20E8 /* TP3.1 */; };
-		60951D4F170C947700CC20E8 /* exemple.cc in Sources */ = {isa = PBXBuildFile; fileRef = 60951D4A170C947700CC20E8 /* exemple.cc */; };
-		60951D50170C947700CC20E8 /* personne.cc in Sources */ = {isa = PBXBuildFile; fileRef = 60951D4B170C947700CC20E8 /* personne.cc */; };
 		60951D52170C949100CC20E8 /* etudiant.cc in Sources */ = {isa = PBXBuildFile; fileRef = 60951D51170C949100CC20E8 /* etudiant.cc */; };
+		60951D59170C953500CC20E8 /* exemple.cc in Sources */ = {isa = PBXBuildFile; fileRef = 60951D54170C953500CC20E8 /* exemple.cc */; };
+		60951D5A170C953500CC20E8 /* personne.cc in Sources */ = {isa = PBXBuildFile; fileRef = 60951D55170C953500CC20E8 /* personne.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,13 +31,13 @@
 		60951D3D170C941800CC20E8 /* TP3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP3; sourceTree = BUILT_PRODUCTS_DIR; };
 		60951D40170C941800CC20E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		60951D42170C941800CC20E8 /* TP3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TP3.1; sourceTree = "<group>"; };
-		60951D49170C947700CC20E8 /* etudiant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = etudiant.h; path = "../../../../../Desktop/cpp_tp3/cpp_tp3 2/etudiant.h"; sourceTree = "<group>"; };
-		60951D4A170C947700CC20E8 /* exemple.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = exemple.cc; path = "../../../../../Desktop/cpp_tp3/cpp_tp3 2/exemple.cc"; sourceTree = "<group>"; };
-		60951D4B170C947700CC20E8 /* personne.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = personne.cc; path = "../../../../../Desktop/cpp_tp3/cpp_tp3 2/personne.cc"; sourceTree = "<group>"; };
-		60951D4C170C947700CC20E8 /* personne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personne.h; path = "../../../../../Desktop/cpp_tp3/cpp_tp3 2/personne.h"; sourceTree = "<group>"; };
-		60951D4D170C947700CC20E8 /* personnes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personnes.h; path = "../../../../../Desktop/cpp_tp3/cpp_tp3 2/personnes.h"; sourceTree = "<group>"; };
-		60951D4E170C947700CC20E8 /* TP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = TP.pdf; path = "../../../../../Desktop/cpp_tp3/cpp_tp3 2/TP.pdf"; sourceTree = "<group>"; };
 		60951D51170C949100CC20E8 /* etudiant.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = etudiant.cc; path = "../../../LO43 TP3 cpp/LO43 TP3 cpp/etudiant.cc"; sourceTree = "<group>"; };
+		60951D53170C953500CC20E8 /* etudiant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = etudiant.h; sourceTree = "<group>"; };
+		60951D54170C953500CC20E8 /* exemple.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exemple.cc; sourceTree = "<group>"; };
+		60951D55170C953500CC20E8 /* personne.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = personne.cc; sourceTree = "<group>"; };
+		60951D56170C953500CC20E8 /* personne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personne.h; sourceTree = "<group>"; };
+		60951D57170C953500CC20E8 /* personnes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personnes.h; sourceTree = "<group>"; };
+		60951D58170C953500CC20E8 /* TP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TP.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +70,13 @@
 		60951D3F170C941800CC20E8 /* TP3 */ = {
 			isa = PBXGroup;
 			children = (
+				60951D53170C953500CC20E8 /* etudiant.h */,
+				60951D54170C953500CC20E8 /* exemple.cc */,
+				60951D55170C953500CC20E8 /* personne.cc */,
+				60951D56170C953500CC20E8 /* personne.h */,
+				60951D57170C953500CC20E8 /* personnes.h */,
+				60951D58170C953500CC20E8 /* TP.pdf */,
 				60951D51170C949100CC20E8 /* etudiant.cc */,
-				60951D49170C947700CC20E8 /* etudiant.h */,
-				60951D4A170C947700CC20E8 /* exemple.cc */,
-				60951D4B170C947700CC20E8 /* personne.cc */,
-				60951D4C170C947700CC20E8 /* personne.h */,
-				60951D4D170C947700CC20E8 /* personnes.h */,
-				60951D4E170C947700CC20E8 /* TP.pdf */,
 				60951D40170C941800CC20E8 /* main.cpp */,
 				60951D42170C941800CC20E8 /* TP3.1 */,
 			);
@@ -135,9 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				60951D41170C941800CC20E8 /* main.cpp in Sources */,
-				60951D4F170C947700CC20E8 /* exemple.cc in Sources */,
-				60951D50170C947700CC20E8 /* personne.cc in Sources */,
 				60951D52170C949100CC20E8 /* etudiant.cc in Sources */,
+				60951D59170C953500CC20E8 /* exemple.cc in Sources */,
+				60951D5A170C953500CC20E8 /* personne.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
